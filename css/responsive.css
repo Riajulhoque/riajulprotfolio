@@ -1,0 +1,26 @@
+ @media (min-width: 375px)and (max-width: 430px){
+  #information-cnt{
+    .information-cnt{
+      .text{
+        #buttons{
+          text-align: center;
+          margin-bottom: 40px;
+        }
+      }
+    }
+  }
+  #services{
+    .serviceCont{
+      text-align: center;
+
+    }
+  }
+}
+@media (min-width: 820px) {
+
+} 
+/* @media (min-width: 1020px) {
+  #banner{
+    
+  }
+} */
