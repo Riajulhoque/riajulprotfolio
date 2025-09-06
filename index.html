@@ -22,7 +22,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="navberc collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mb-lg-0">
+        <ul class="navbar-nav  mb-lg-0">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page"  href="#">Home</a>
           </li>
@@ -63,7 +63,7 @@
                 <a href="https://www.linkedin.com/in/md-riajul-haque"><i class="fa-brands fa-linkedin"></i></a>
                 <a href="https://www.facebook.com/shuvo.reajul.3"><i class="fa-brands fa-facebook"></i></a>
                 <a href="https://www.instagram.com/riajul_haque_shuvo?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fa-brands fa-instagram"></i></a>
-                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="https://github.com/Riajulhoque"><i class="fa-brands fa-github"></i></a>
             </div>
           </div>
         </div>
@@ -100,7 +100,7 @@
                 <a href="https://www.linkedin.com/in/md-riajul-haque"><i class="fa-brands fa-linkedin"></i></a>
                 <a href="https://www.facebook.com/shuvo.reajul.3"><i class="fa-brands fa-facebook"></i></a>
                 <a href="https://www.instagram.com/riajul_haque_shuvo?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fa-brands fa-instagram"></i></a>
-                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="https://github.com/Riajulhoque"><i class="fa-brands fa-github"></i></a>
             </div>
           </div>
         </div>
@@ -126,14 +126,18 @@
           <div class="text col-sm-12 col-lg-7">
             <div class="contect row">
               <div class="phone">
-                <p>Name :<a href="#">Riajul Haque</a></p>
-                <p>Experience :<a href="#"> 3 Years</a></p>
-                <p>Phone :<a href="tel:+8801827458296">+8801827458296</a></p>
-                <p>Behance :<span><a href="#">Not Available </a></span> </p>
-                <p>Freelance :<a href="#">Available</a></p>
-                <p>Langages :<a href="#">English, Bangla</a></p>
-                <p>Email :<span><a href="#">shuvoriajul123@gmail.com</a></span></p>
-                <p>Dribble :<span><a href="#">Not Available</a></span></p>
+                <div class="phone-p">
+                  <p>Name :<a href="#">Riajul Haque</a></p>
+                  <p>Phone :<a href="tel:+8801827458296">+8801827458296</a></p>
+                  <p>Freelance :<a href="#">Available</a></p>
+                  <p>Email :<span><a href="#">shuvoriajul123@gmail.com</a></span></p>
+                </div>
+                <div class="phone-n">
+                  <p>Experience :<a href="#"> 3 Years</a></p>
+                  <p>Langages :<a href="#">English</a></p>
+                  <p>Behance :<span><a href="#">Not Available </a></span> </p>
+                  
+                </div>
               </div>
             </div>
             <div id="buttons">
@@ -143,51 +147,31 @@
             </div>
           </div>
           <div class="Expert-bar col-sm-12 col-lg-4">
-            <div class="button row">
-              <div class="sbutton col-6">
-                <a href="#">Skills</a>
-              </div>
-              <div class="ebutton col-6">
-                <a href="#">Education</a>
-              </div>
+             <h2>My Skills</h2>
+            <button onclick="showContent('skills')">Design</button>
+            <button onclick="showContent('education')">Programmeing</button>
+            <!-- Skills Section -->
+            <div id="skills" class="content">
+              <!-- <h2>Design Skills</h2> -->
+              <img src="./image/photoshop.png" alt="">
+              <img src="./image/figma.png" alt="figma">
+              <img src="./image/illustrator.png" alt="illustrator">
+              <img src="./image/experience.png" alt="Experience">
+              <!-- Add more skill logos -->
             </div>
-            <div class="progress-bar">
-              <div class="progress-area">
-                <p>Figma</p>
-                <div class="progress-cnt" style="width: 85%;background-color: #F16500;">
-                  <h5 style="color: #f15600;">85%</h5>
-                </div>
-  
-  
-              </div>
-            </div>
-            <div class="progress-bar">
-              <div class="progress-area">
-                <p>Photoshop</p>
-                <div class="progress-cnt" style="width: 75%;background-color: #03249B;">
-                  <h5 style="color: #03249B;">75%</h5>
-                </div>
-  
-  
-              </div>
-            </div>
-            <div class="progress-bar">
-              <div class="progress-area">
-                <p>XD</p>
-                <div class="progress-cnt" style="width: 80%;background-color: #700D60;
-                ;">
-                  <h5 style="color: #700D60;
-                  ;">80%</h5>
-                </div>
-              </div>
-            </div>
-            <div class="progress-bar">
-              <div class="progress-area">
-                <p>Illustrator</p>
-                <div class="progress-cnt" style="width: 70%;background-color: #234BDA;">
-                  <h5 style="color: #234BDA;">70%</h5>
-                </div>
-              </div>
+            <!-- Education Section -->
+            <div id="education" class="content">
+              <!-- <h2>Programmer Skills</h2> -->
+              <img src="./image/html5.png" alt="Html5">
+              <img src="./image/css.png" alt="Css">
+              <img src="./image/sass.png" alt="Sass">
+              <img src="./image/js.png" alt="JavaScript">
+              <img src="./image/Tailwind CSS.png" alt="Tailwind">
+              <img src="./image/daisyUi.png" alt="daisyUi">
+              <img src="./image/Bootstrap.png" alt="Bootstrap">
+              <img src="./image/React.png" alt="React">
+              <img src="./image/github.png" alt="github">
+              <!-- Add more education logos -->
             </div>
           </div>
         </div>
@@ -199,29 +183,43 @@
       <div class="container row">
         <div class="A-Experience col-lg-6 col-sm-12">
           <h2>Experience</h2>
-          <span><p><i class="fa-regular fa-calendar-days"></i>2017-2019</p></span>
-          <h4>Visual Designer-Self Employ, India</h4>
-          <p>A Visual designe design for a varaity of platforms which may includes internat and internet sites, games, movies and wareable. In short, they create the concept. </p>
-  
-          <span><p><i class="fa-regular fa-calendar-days"></i>2017-2019</p></span>
-          <h4>Visual Designer-Self Employ, India</h4>
-          <p>A Visual designe design for a varaity of platforms which may includes internat and internet sites, games, movies and wareable. In short, they create the concept. </p>
-  
-          <span><p><i class="fa-regular fa-calendar-days"></i>2017-2019</p></span>
-          <h4>Visual Designer-Self Employ, India</h4>
-          <p>A Visual designe design for a varaity of platforms which may includes internat and internet sites, games, movies and wareable. In short, they create the concept. </p>
+          <h4><img src="./image/coding.png" alt=""><span></span>Web Development</h4>
+          <p>Proficient in HTML5, CSS3/SCSS, and JavaScript for building responsive, interactive websites.</p>
+          <hr>
+          <h4><img src="./image/ui-ux.png" alt=""><span></span>UI/UX Design</h4>
+          <p>Skilled in Figma and Adobe Creative Suite (Photoshop, Illustrator) for creating modern, user-friendly layouts and prototypes.</p>
+          <hr>
+          <h4><img src="./image/hotmail.png" alt=""><span></span>Email Signature Design</h4>
+          <p>Email Signature Design: 8+ years of experience crafting custom HTML email signatures compatible across Gmail, Outlook, Apple Mail, and mobile platforms.</p>
+          <hr>
+          <h4><img src="./image/github.png" alt=""><span></span>Version Control</h4>
+          <p>Familiar with Git & GitHub for managing code, updating repositories, and collaborating on projects.</p>
+          <hr>
+          <h4><img src="./image/coding.png" alt=""><span></span>Problem Solving</h4>
+          <p>Strong ability to analyze project needs and implement creative, practical solutions.</p>
+          <hr>
+          <h4><img src="./image/global-services.png" alt=""><span></span>Communication & Teamwork</h4>
+          <p>Experience working with local organizations and clubs, collaborating to achieve shared goals.</p>
+          <hr>
+          <h4><img src="./image/leadership.png" alt=""><span></span>Leadership</h4>
+          <p>Serving as Club Service Director in Rotaract, managing projects, conducting sessions, and leading team initiatives.</p>
         </div>
-        <div class="A-Education col-lg-6 col-sm-12">
+        <div class="A-Experience col-lg-6 col-sm-12">
           <h2>Education</h2>
-          <span><p><i class="fa-regular fa-calendar-days"></i>2017-2019</p></span>
-          <h4>Visual Designer-Self Employ, India</h4>
-          <p>A Visual designe design for a varaity of platforms which may includes internat and internet sites, games, movies and wareable. In short, they create the concept. </p>
-          <span><p><i class="fa-regular fa-calendar-days"></i>2017-2019</p></span>
-          <h4>Visual Designer-Self Employ, India</h4>
-          <p>A Visual designe design for a varaity of platforms which may includes internat and internet sites, games, movies and wareable. In short, they create the concept. </p>
-          <span><p><i class="fa-regular fa-calendar-days"></i>2017-2019</p></span>
-          <h4>Visual Designer-Self Employ, India</h4>
-          <p>A Visual designe design for a varaity of platforms which may includes internat and internet sites, games, movies and wareable. In short, they create the concept. </p>
+          <h4><img src="./image/iiuc.png" alt=""><span></span>B.Sc. in Computer Science & Engineering (CSE)</h4>
+          <p>International Islamic University Chittagong (IIUC)
+            <br> <span>Ongoing – 3rd Year</span>
+          </p>
+          <hr>
+          <h4><img src="./image/MES-modified.png" alt=""><span></span>Higher Secondary Certificate (HSC), Science</h4>
+          <p>OMARGANI M. E. S. College
+            <br> <span>Year : [2020 - 2022]</span>
+          </p>
+          <hr>
+          <h4><img src="./image/MES-modified.png" alt=""><span></span>Secondary School Certificate (SSC), Science</h4>
+          <p>Rahmania High School
+            <br> <span>Year : [2018 - 2020]</span>
+          </p>
         </div>
       </div>
     </div>
@@ -239,45 +237,96 @@
       <div class="serviceCont d-lg-block d-none">
         <div class="container">
           <div class="row">
-            <div class="serviceText col-lg-6 col-sm-12">
+            <div class="serviceText col-sm-12">
               <div class="icons">
                 <a href="#"><i class="fa-solid fa-link"></i></a>
               </div>
               <h2>01</h2>
-                <h4>Web Design</h4>
-                <p>"Transforming your vision into a stunning, responsive web and mobile experience. Partner with our agency for a landing page design that captivates and converts.</p>
-                <h5>Html 5,  CSS 3 ,Javascript and PHP </h5>
+                <h4>Web Design & Development</h4>
+                <p>"I provide professional website design and development services, ensuring fully responsive and user-friendly interfaces. My work includes creating personal portfolios, landing pages, and business websites tailored to meet client objectives."</p>
                 <div class="line3"></div>
-            </div>
-            <div class="serviceText col-lg-6 col-sm-12">
+                <div id="buttons">
+                  <button  class='glowing-btn'>
+                    <span class='glowing-txt'>S<span class='faulty-letter'>EE</span>M<span class='faulty-letter'>o</span>re</span>
+                  </button>
+                </div>
+                <!-- <h5>HTML5,  CSS3,  SCSS,  JavaScript (ES6+),  <br>Tailwind CSS / Bootstrap,  Cross-browser Compatibility .</h5> -->
+              </div>
+            <div class="serviceText col-sm-12">
               <div class="icons">
                 <a href="#"><i class="fa-solid fa-link"></i></a>
               </div>
               <h2>02</h2>
-              <h4>Email Signature</h4>
-              <p>I will create HTML email signature or clickable html email signature outlook signature.</p>
-              <h5>HTML 5, CSS 3</h5>
+              <h4>Email Signature</h4><br><br>
+              <p>"With 3+ years of experience, <br>  I create customized, clickable HTML email signatures that look professional across all devices and email platforms—perfect for boosting brand identity in every email."</p>
+              <!-- <h5>HTML, Inline CSS, Responsive Design, Tables & Layouts, Link & Image Integration</h5> -->
               <div class="line3"></div>
+              <div id="buttons">
+                <button  class='glowing-btn'>
+                  <span class='glowing-txt'>S<span class='faulty-letter'>EE</span>M<span class='faulty-letter'>o</span>re</span>
+                </button>
+              </div>
             </div>
-            <div class="serviceText col-lg-6 col-sm-12">
+            <div class="serviceText col-sm-12">
               <div class="icons">
                 <a href="#"><i class="fa-solid fa-link"></i></a>
               </div>
               <h2>03</h2>
-              <h4>Logo Design</h4>
-              <p>I am specialized in clean and timeless logo design as well as brand style guides. To date, I have completed 500+ projects on Behance and dribble.</p>
-              <h5>3D Logo, Modern art, PS ,Ab</h5>
-              <div class="line3"></div>
+              <h4>Frontend Development</h4><br><br>
+              <p>"I turn designs into functional websites using HTML, CSS/SCSS, and JavaScript. I also use frameworks like Tailwind or Bootstrap to build fast, optimized, and easy-to-maintain websites."</p>
+              <h5></h5>
+              <div class="line3"></div><br>
+              <div id="buttons">
+                <button  class='glowing-btn'>
+                  <span class='glowing-txt'>S<span class='faulty-letter'>EE</span>M<span class='faulty-letter'>o</span>re</span>
+                </button>
+              </div>
             </div>
-            <div class="serviceText col-lg-6 col-sm-12">
+            <div class="serviceText col-sm-12">
               <div class="icons">
                 <a href="#"><i class="fa-solid fa-link"></i></a>
               </div>
               <h2>04</h2>
-              <h4>Wordpress Developer</h4>
-              <p>I can create responsive, SEO-friendly WordPress sites that enhance your online presence and drive your business forward.</p>
-              <h5>Html  5,  css  3 ,  javascript</h5>
+              <h4>Wordpress Developer</h4><br><br>
+              <p>"I design, develop, and customize WordPress websites, create responsive themes, integrate plugins, and optimize for performance and security."</p>
+              <h5></h5>
+              <!-- <h5>HTML, CSS / SCSS,JavaScript, PHP, MySQL, Theme Development, Plugin Integration, REST API (basic)</h5> -->
+              <div class="line3"></div><br>
+              <div id="buttons">
+                <button  class='glowing-btn'>
+                  <span class='glowing-txt'>S<span class='faulty-letter'>EE</span>M<span class='faulty-letter'>o</span>re</span>
+                </button>
+              </div>
+            </div>
+            <div class="serviceText col-sm-12">
+              <div class="icons">
+                <a href="#"><i class="fa-solid fa-link"></i></a>
+              </div>
+              <h2>05</h2>
+              <h4>Website Maintenance & Fixes</h4>
+              <p>"I help businesses and individuals keep their websites updated, secure, and bug-free. Whether it’s fixing errors, adding new features, or improving performance, I provide reliable ongoing support."</p>
+              <!-- <h5>JavaScript, Debugging & Troubleshooting, Responsive Design Fixes, Version Control (Git & GitHub).</h5> -->
               <div class="line3"></div>
+              <div id="buttons">
+                <button  class='glowing-btn'>
+                  <span class='glowing-txt'>S<span class='faulty-letter'>EE</span>M<span class='faulty-letter'>o</span>re</span>
+                </button>
+              </div>
+            </div>
+            <div class="serviceText col-sm-12">
+              <div class="icons">
+                <a href="#"><i class="fa-solid fa-link"></i></a>
+              </div>
+              <h2>06</h2>
+              <h4>Defect Tracking & <br> Issue Management</h4>
+              <p>"I assist in identifying, documenting, and resolving defects or issues in websites and applications. Using structured defect tracking methods and tools, I ensure smoother workflows, reduced downtime, and higher product quality."</p>
+              <!-- <h5>Bug Identification & Reporting, Issue Documentation, Debugging & Troubleshooting, Code-related issues, Testing & Quality Assurance, Using Issue Tracking Tools</h5> -->
+              <div class="line3"></div>
+              <div id="buttons">
+                <button  class='glowing-btn'>
+                  <span class='glowing-txt'>S<span class='faulty-letter'>EE</span>M<span class='faulty-letter'>o</span>re</span>
+                </button>
+              </div>
             </div>
           </div>
           </div>
@@ -287,40 +336,79 @@
       <div class="serviceCont d-block d-lg-none">
         <div class="container">
           <div class="row">
-            <div class="serviceText col-lg-6 col-sm-12">
+            <div class="serviceText col-sm-12">
               <h2>01</h2>
-                <h4>Web Design</h4>
-                <p>"Transforming your vision into a stunning, responsive web and mobile experience. Partner with our agency for a landing page design that captivates and converts.</p>
-                <div class="icons">
-                  <h5>Html 5,  CSS 3 and Javascript </h5>
-                  <a href="#"><i class="fa-solid fa-link"></i></a>
+                <h4>Web Design & Development</h4>
+                <p>"I provide professional website design and development services, ensuring fully responsive and user-friendly interfaces. My work includes creating personal portfolios, landing pages, and business websites tailored to meet client objectives."</p>
+                <div class="line3"></div>
+                <div id="buttons">
+                  <button  class='glowing-btn'>
+                    <span class='glowing-txt'>S<span class='faulty-letter'>EE</span>M<span class='faulty-letter'>o</span>re</span>
+                  </button>
                 </div>
+                <!-- <div class="icons">
+                  <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div> -->
             </div>
-            <div class="serviceText col-lg-6 col-sm-12">
+            <div class="serviceText col-sm-12">
               <h2>02</h2>
-              <h4>Email Signature</h4>
-              <p>I will create HTML email signature or clickable html email signature outlook signature.</p>
-              <div class="icons">
-                <h5>HTML 5, CSS 3 and Email</h5>
-                <a href="#"><i class="fa-solid fa-link"></i></a>
+              <h4>Email Signature</h4><br><br>
+              <p>"With 3+ years of experience, <br>  I create customized, clickable HTML email signatures that look professional across all devices and email platforms—perfect for boosting brand identity in every email."</p>
+              <!-- <h5>HTML, Inline CSS, Responsive Design, Tables & Layouts, Link & Image Integration</h5> -->
+              <div class="line3"></div>
+              <div id="buttons">
+                <button  class='glowing-btn'>
+                  <span class='glowing-txt'>S<span class='faulty-letter'>EE</span>M<span class='faulty-letter'>o</span>re</span>
+                </button>
               </div>
             </div>
-            <div class="serviceText col-lg-6 col-sm-12">
+            <div class="serviceText col-sm-12">
               <h2>03</h2>
-              <h4>Logo Design</h4>
-              <p>I am specialized in clean and timeless logo design as well as brand style guides. To date, I have completed 500+ projects on Behance and dribble.</p>
-              <div class="icons">
-                <h5>3D Logo, Modern art, PS ,Ab</h5>
-                <a href="#"><i class="fa-solid fa-link"></i></a>
+              <h4>Frontend Development</h4><br><br>
+              <p>"I turn designs into functional websites using HTML, CSS/SCSS, and JavaScript. I also use frameworks like Tailwind or Bootstrap to build fast, optimized, and easy-to-maintain websites."</p>
+              <h5></h5>
+              <div class="line3"></div><br>
+              <div id="buttons">
+                <button  class='glowing-btn'>
+                  <span class='glowing-txt'>S<span class='faulty-letter'>EE</span>M<span class='faulty-letter'>o</span>re</span>
+                </button>
               </div>
             </div>
-            <div class="serviceText col-lg-6 col-sm-12">
+            <div class="serviceText  col-sm-12">
               <h2>04</h2>
-              <h4>Wordpress Developer</h4>
-              <p>I can create responsive, SEO-friendly WordPress sites that enhance your online presence and drive your business forward.</p>
-              <div class="icons">
-                <h5>Html  5,  css  3 ,  javascript</h5>
-                <a href="#"><i class="fa-solid fa-link"></i></a>
+              <h4>Wordpress Developer</h4><br><br>
+              <p>"I design, develop, and customize WordPress websites, create responsive themes, integrate plugins, and optimize for performance and security."</p>
+              <h5></h5><br>
+              <!-- <h5>HTML, CSS / SCSS,JavaScript, PHP, MySQL, Theme Development, Plugin Integration, REST API (basic)</h5> -->
+              <div class="line3"></div><br>
+              <div id="buttons">
+                <button  class='glowing-btn'>
+                  <span class='glowing-txt'>S<span class='faulty-letter'>EE</span>M<span class='faulty-letter'>o</span>re</span>
+                </button>
+              </div>
+            </div>
+            <div class="serviceText  col-sm-12">
+              <h2>05</h2>
+              <h4>Website Maintenance & Fixes</h4>
+              <p>"I help businesses and individuals keep their websites updated, secure, and bug-free. Whether it’s fixing errors, adding new features, or improving performance, I provide reliable ongoing support."</p><br>
+              <!-- <h5>JavaScript, Debugging & Troubleshooting, Responsive Design Fixes, Version Control (Git & GitHub).</h5> -->
+              <div class="line3"></div>
+              <div id="buttons">
+                <button  class='glowing-btn'>
+                  <span class='glowing-txt'>S<span class='faulty-letter'>EE</span>M<span class='faulty-letter'>o</span>re</span>
+                </button>
+              </div>
+            </div>
+            <div class="serviceText  col-sm-12">
+               <h2>06</h2>
+              <h4>Defect Tracking & <br> Issue Management</h4>
+              <p>"I assist in identifying, documenting, and resolving defects or issues in websites and applications. Using structured defect tracking methods and tools, I ensure smoother workflows, reduced downtime, and higher product quality."</p><br>
+              <!-- <h5>Bug Identification & Reporting, Issue Documentation, Debugging & Troubleshooting, Code-related issues, Testing & Quality Assurance, Using Issue Tracking Tools</h5> -->
+              <div class="line3"></div>
+              <div id="buttons">
+                <button  class='glowing-btn'>
+                  <span class='glowing-txt'>S<span class='faulty-letter'>EE</span>M<span class='faulty-letter'>o</span>re</span>
+                </button>
               </div>
             </div>
           </div>
@@ -342,24 +430,26 @@
       <div class="protfolioCont d-none d-lg-block">
         <div class="container">
           <div class="row">
-            <div class="protfolioText col-lg-6 col-sm-12">
-              <h2>01</h2>
-              <h4>Frontend Project</h4>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate sapiente ipsa soluta consectetur neque fugit sed tempore similique laboriosam laborum?</p>
-              <h5>Html  5,  css  3 ,  javascript</h5>
-              <div class="line3"></div>
-              <div class="icons">
-                <a href="#"><i class="fa-brands fa-github"></i></a>
-                <a href="#"><i class="fa-solid fa-link"></i></a>
+            <div class="projects">
+              <div class="protfolioText col-lg-6 col-sm-12">
+                <h2>01</h2>
+                <h4>Frontend Project</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate sapiente ipsa soluta consectetur neque fugit sed tempore similique laboriosam laborum?</p>
+                <h5>Html  5,  css  3 ,  javascript</h5>
+                <div class="line3"></div>
+                <div class="icons">
+                  <a href="#"><i class="fa-brands fa-github"></i></a>
+                  <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
               </div>
-            </div>
-            <div class="protfolioImage col-lg-6 col-sm-12">
-              <div class="image">
-                <img src="./image/E-Commerch.png" alt="">
-              </div>
-              <div class="icons">
-                <a href="#"><i class="fa-regular fa-circle-left"></i></a>
-                <a href="#"><i class="fa-regular fa-circle-right"></i></a>
+              <div class="protfolioImage col-lg-6 col-sm-12">
+                <div class="image">
+                  <img src="./image/E-Commerch.png" alt="">
+                </div>
+                <div class="icons">
+                  <a href="#"><i class="fa-regular fa-circle-left"></i></a>
+                  <a href="#"><i class="fa-regular fa-circle-right"></i></a>
+                </div>
               </div>
             </div>
           </div>
@@ -537,6 +627,7 @@
      <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
      <script src="./Js/bootstrap.bundle.min.js"></script>
      <script src="./Js/app.js"></script>
+     
     <!-- JavaScript links ends here -->
 </body>
 </html>
