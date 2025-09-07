@@ -216,7 +216,7 @@
             <br> <span>Year : [2020 - 2022]</span>
           </p>
           <hr>
-          <h4><img src="./image/MES-modified.png" alt=""><span></span>Secondary School Certificate (SSC), Science</h4>
+          <h4><img src="./image/Rohomania-modified.png" alt=""><span></span>Secondary School Certificate (SSC), Science</h4>
           <p>Rahmania High School
             <br> <span>Year : [2018 - 2020]</span>
           </p>
@@ -420,10 +420,10 @@
       <!-- protfolio page starts here -->
    <div id="aboutBanner">
     <div class="container">
-      <h2>Protfolio </h2>
+      <h2 style="color:  hsl(186 100% 69%);">Portfolio  </h2>
       <br>
-      <div class="line1"></div>
-      <div class="line2"></div>
+      <div style="background-color:  hsl(186 100% 69%);" class="line1"></div>
+      <div style="background-color:  hsl(186 100% 69%);" class="line2"></div>
     </div>
    </div>
     <div id="protfolio">
@@ -431,24 +431,26 @@
         <div class="container">
           <div class="row">
             <div class="projects">
-              <div class="protfolioText col-lg-6 col-sm-12">
-                <h2>01</h2>
-                <h4>Frontend Project</h4>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate sapiente ipsa soluta consectetur neque fugit sed tempore similique laboriosam laborum?</p>
-                <h5>Html  5,  css  3 ,  javascript</h5>
+              <div class="protfolioText col-lg-6">
+                <h2 id="project-number">01</h2>
+                <h4 id="project-title">Frontend Project</h4>
+                <p id="project-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate sapiente ipsa soluta consectetur neque fugit sed tempore similique laboriosam laborum?</p>
+                <!-- <h5>Html  5,  css  3 ,  javascript</h5> -->
                 <div class="line3"></div>
                 <div class="icons">
                   <a href="#"><i class="fa-brands fa-github"></i></a>
                   <a href="#"><i class="fa-solid fa-link"></i></a>
                 </div>
               </div>
-              <div class="protfolioImage col-lg-6 col-sm-12">
+              <div class="protfolioImage project-image col-lg-6">
                 <div class="image">
-                  <img src="./image/E-Commerch.png" alt="">
+                  <img id="project-img" src="https://ibb.co.com/ZzF2KH11" alt="Project Image">
                 </div>
-                <div class="icons">
-                  <a href="#"><i class="fa-regular fa-circle-left"></i></a>
-                  <a href="#"><i class="fa-regular fa-circle-right"></i></a>
+                <div class="icons project-controls">
+                  <button onclick="prevProject()"><i class="fa-regular fa-circle-left"></i></button>
+                  <button onclick="nextProject()"><i class="fa-regular fa-circle-right"></i></button>
+                  
+      
                 </div>
               </div>
             </div>

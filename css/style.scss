@@ -1217,6 +1217,7 @@ nav{
         .icons{
           display: flex;
           justify-content: start;
+          
           a{margin: 0px 4px;
             i{
               width: 40px;
@@ -1249,7 +1250,9 @@ nav{
         .icons{
           display: flex;
           justify-content: space-between;
-          a{margin: 0px 4px;
+          button{
+            margin: 0px 4px;
+            border-radius: 50%;
             i{
               width: 40px;
               height: 40px;
@@ -1265,8 +1268,9 @@ nav{
                 color: black;
               }
             }
-            
+
           }
+          
           margin-bottom: 60px;
         }
       }

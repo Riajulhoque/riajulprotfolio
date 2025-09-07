@@ -1090,10 +1090,11 @@ nav .navbarc {
   justify-content: space-between;
   margin-bottom: 60px;
 }
-#protfolio .protfolioCont .projects .protfolioImage .icons a {
+#protfolio .protfolioCont .projects .protfolioImage .icons button {
   margin: 0px 4px;
+  border-radius: 50%;
 }
-#protfolio .protfolioCont .projects .protfolioImage .icons a i {
+#protfolio .protfolioCont .projects .protfolioImage .icons button i {
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -1104,7 +1105,7 @@ nav .navbarc {
   font-size: 20px;
   border: 2px solid yellow;
 }
-#protfolio .protfolioCont .projects .protfolioImage .icons a i:hover {
+#protfolio .protfolioCont .projects .protfolioImage .icons button i:hover {
   background-color: yellow;
   color: black;
 }
